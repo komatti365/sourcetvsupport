@@ -80,8 +80,8 @@ jobs:
       - name: Getting SteamWorks SDK
         uses: actions/checkout@v7
         with:
-          repository: shqke/steamworks-sdk
-          ref: v1.55
+          repository: komatti365/steamworks_sdk
+          ref: main
           path: steamworks-sdk
           token: ${{ secrets.STEAMWORKS_REPO_ACCESS_TOKEN }}
           
